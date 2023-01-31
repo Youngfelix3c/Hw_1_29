@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hw4.1.2</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <style>
+            .form01{
+                text-align: center;
+                /* top: 50%; */
+            }
+
+        </style>
+    </head>
+    
+    <body>
+        <!-- class的form01为全体,id的form02为账号密码等 -->
+        <div class="form01">
+            <div class="login01">
+                <h3>Sign in<img src="login_black_24dp.png"></h3>
+            </div>
+
+            <hr>
+            <!-- 以下为本体输入栏 -->
+            <form action="todo" method="post" id="form02">
+                <div class="用户名01">
+                    <label id="用户名字体" >UserName</label>
+                    <br>
+                    <input type="text" placeholder="Enter your username">
+                </div>
+
+                <br>
+                
+                <div class="密码01">
+                    <label id="密码字体">Password</label>
+                    <br>
+                    <input type="password" placeholder="Enter your password">
+                </div>
+
+                <br>
+                
+                <div class="checkbox01">
+                    <input type="checkbox" name="RE01">
+                    <label for="RE01">Remember me</label>
+                </div>
+                <!-- 本体输入栏到此为止 -->
+
+                <!-- 注册跳转超链接 -->
+                <div class="跳转注册">
+                    <p>Don't have an account?&nbsp;<a href="IndeX_1_29Hw3.html" target="_blank">Register here</a></p>
+                </div>
+                <!-- 登录按键 -->
+                <div class="登录按键01">
+                    <input id="登录按键" type="submit" value="&nbsp;&nbsp;go!&nbsp;&nbsp;">
+                </div>
+            </form>   
+        </div>
+    </body>
+</html>
